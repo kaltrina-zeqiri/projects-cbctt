@@ -1,0 +1,50 @@
+﻿<Window x:Class="UniversityTimetabling.TimetableWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniversityTimetabling"
+        mc:Ignorable="d"
+    Title="Assign timetable" WindowStartupLocation="CenterScreen" WindowState="Maximized" ShowInTaskbar="False" Topmost="True" d:DesignWidth="1284" d:DesignHeight="577" ResizeMode="NoResize">
+    <Grid x:Name="win">
+        <Label x:Name="labelCourse" Content="Class:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,10,0,0" Height="23" Width="60" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtClass" HorizontalAlignment="Left" Height="23" Margin="101,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="289" RenderTransformOrigin="0.414,0.475"  IsReadOnly="True" />
+        <TextBox x:Name="txtClassId" Visibility="Hidden" Text="" IsReadOnly="True" />
+        <Label x:Name="labelTeacher" Content="Teacher:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,38,0,0" Height="23" Width="76" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtTeacher" HorizontalAlignment="Left" Height="23" Margin="101,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="289" IsEnabled="False"  />
+        <TextBox x:Name="txtTeacherId" Visibility="Hidden" Text="" IsReadOnly="True" />
+        <TextBox x:Name="txtDetail" Visibility="Hidden" Text="" IsReadOnly="True" />
+        <Label x:Name="labelCode" Content="Code:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,68,0,0" Height="23" Width="76" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtCode" HorizontalAlignment="Left" Height="22" Margin="101,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="289" IsEnabled="False"  />
+        <TextBox x:Name="txtSemester" Visibility="Hidden" Text="" IsReadOnly="True"   />
+        <TextBox x:Name="txtLectureGroup" Visibility="Hidden" Text="" IsReadOnly="True"   />
+        <TextBox x:Name="txtNumericGroup" Visibility="Hidden" Text="" IsReadOnly="True"   />
+        <TextBox x:Name="txtLaboratoryGroup" Visibility="Hidden" Text="" IsReadOnly="True"   />
+        <TextBox x:Name="txtDepartmentIds" Visibility="Hidden" Text="" IsReadOnly="True" />
+        <Label x:Name="labelLectures" Content="Lectures:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,96,0,0" Height="23" Width="76" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtNumberofLectures" HorizontalAlignment="Left" Height="23" Margin="101,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="289"  IsEnabled="False"  />
+        <Label x:Name="labelStudents" Content="Students:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,125,0,0" Height="23" Width="76" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtNumberofStudents" HorizontalAlignment="Left" Height="23" Margin="101,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="289"  IsEnabled="False"  />
+        <Label x:Name="labelDepartments" Content="Study programs:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="425,10,0,0" Height="28" Width="136" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBlock x:Name="txbDepartments"  HorizontalAlignment="Left" Height="109" Margin="429,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="316" IsEnabled="False"/>
+        <Label x:Name="labelRooms" Content="Choose one of possible rooms:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="791,10,0,0" Height="28" Width="228" FontFamily="Verdana" FontWeight="Bold"/>
+        <ComboBox x:Name="comboBoxRooms" HorizontalAlignment="Left" VerticalAlignment="Top" Width="212" Margin="794,39,0,0" BorderBrush="White" SelectionChanged="comboboxRooms_SelectionChanged">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Label x:Name="labelInfo" Content="Currently assigned:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="791,65,0,0" Height="28" Width="228" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBlock x:Name="txbInfo"  HorizontalAlignment="Left" Height="25" Margin="795,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="215" IsEnabled="False"/>
+        <Grid x:Name="GridMain" ShowGridLines="False" MouseDown="OnDoubleClick" Margin="0,162,0,0">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+        </Grid>
+    </Grid>
+</Window>

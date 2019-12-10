@@ -1,0 +1,129 @@
+﻿<Window x:Name="courses" x:Class="UniversityTimetabling.Courses"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniversityTimetabling"
+        mc:Ignorable="d"
+        Title="Courses" Height="500" Width="1150" Initialized="courses_Initialized" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" ShowInTaskbar="False">
+    <Grid>
+        <DataGrid x:Name="coursesGrid" AutoGenerateColumns="False" ColumnWidth="*" CanUserAddRows="False" HorizontalGridLinesBrush="#FF2C3C83" VerticalGridLinesBrush="#FF2C3C83" SelectionMode="Single" IsReadOnly="True" Background="White" Margin="0,70,0,0" MouseDoubleClick="coursesGrid_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id}" Header="ID" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding name}" Header="Name" Width="15*"/>
+                <DataGridTextColumn Binding="{Binding code}" Header="Code" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding depts}" Header="Study programs"  Width="15*"/>
+                <DataGridTextColumn Binding="{Binding ects}" Header="Ects"  Width="5*"/>
+                <DataGridTextColumn Binding="{Binding semester}" Header="Semester" Width="5*"/>
+                <DataGridTextColumn Binding="{Binding groups}" Header="Groups" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding type}" Header="Type"  Width="5*"/>
+                <DataGridTextColumn Binding="{Binding lectures}" Header="Number of Lectures"  Width="7*"/>
+                <DataGridTextColumn Binding="{Binding min_days}" Header="Min Days" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding degree}" Header="Degree"  Width="5*"/>
+                <DataGridTextColumn Binding="{Binding double_lectures}" Header="Double Lectures" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding students}" Header="Students"  Width="5*" />
+                <DataGridTextColumn Binding="{Binding parent}" Header="Parent" Visibility="Hidden" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Rectangle x:Name="addCourse" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="76" RadiusY="8.5" RadiusX="8.5" Margin="10,6,0,0" MouseUp="addCourse_MouseUp"/>
+        <Rectangle x:Name="editCourse" Fill="White" HorizontalAlignment="Left" Height="25" Margin="95,6,0,0" Stroke="Black" VerticalAlignment="Top" Width="76" RadiusY="8.5" RadiusX="8.5" MouseUp="editCourse_MouseUp"/>
+        <Rectangle x:Name="deleteCourse" Fill="White" HorizontalAlignment="Left" Height="25" Margin="10,37,0,0" Stroke="Black" VerticalAlignment="Top" Width="76" RadiusY="8.5" RadiusX="8.5" MouseUp="deleteCourse_MouseUp"/>
+        <Label x:Name="labelAddCourse" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,7,0,0" Height="24" Width="38" FontFamily="Verdana" FontWeight="Bold" MouseUp="addCourse_MouseUp"/>
+        <Label x:Name="labelEditCourse" Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,6,0,0" Height="25" Width="38" FontFamily="Verdana" FontWeight="Bold"  MouseUp="editCourse_MouseUp" RenderTransformOrigin="-1.461,1.722"/>
+        <Label x:Name="labelDeleteCourse" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="34,37,0,0" Height="27" Width="56" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="-1.461,1.722" MouseUp="deleteCourse_MouseUp">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recAddIcon" HorizontalAlignment="Left" Height="20" Stroke="Black" VerticalAlignment="Top" Width="20" Margin="15,8,0,0" StrokeThickness="0" MouseUp="addCourse_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="add.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="recEditIcon" HorizontalAlignment="Left" Height="20" Margin="100,8,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" StrokeThickness="0"  MouseUp="editCourse_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="edit.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="recIconDelete" HorizontalAlignment="Left" Height="20" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="20" Margin="15,40,0,0" MouseUp="deleteCourse_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="delete.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="labelName" Content="Name:" HorizontalAlignment="Left" Margin="195,7,0,0" VerticalAlignment="Top" Height="23" Width="62" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtFilterByName" HorizontalAlignment="Left" Height="23" Margin="310,8,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" ToolTip="Filter By Name" RenderTransformOrigin="0.414,0.475" TextChanged="txtFilterByName_TextChanged" />
+        <Rectangle x:Name="refreshCourse" Fill="White" Height="25" Margin="0,6,21,0" Stroke="Black" VerticalAlignment="Top" RadiusY="8.5" RadiusX="8.5" MouseUp="refreshCourse_MouseUp" HorizontalAlignment="Right" Width="121"/>
+        <Label x:Name="labelRefreshCourse" Content="Refresh" VerticalAlignment="Top" Margin="0,6,29,0" Height="27" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.387,0.219" MouseUp="refreshCourse_MouseUp" HorizontalAlignment="Right" Width="87">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform X="0.034" Y="-0.031"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recIconRefresh" Height="15" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Margin="0,11,118,0" MouseUp="refreshCourse_MouseUp" HorizontalAlignment="Right" Width="15">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="refresh.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <ComboBox x:Name="comboBoxDepartment" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="310,36,0,0" BorderBrush="White" Initialized="comboBoxDepartment_Initialized" SelectionChanged="comboBox_SelectionChanged" ToolTip="Filter By Study Program" Height="23">
+          <ComboBox.Background>
+            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+              <GradientStop Color="#FFF0F0F0" Offset="0"/>
+              <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+          </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="comboBoxSemesters" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="578,8,0,0" BorderBrush="White" Initialized="comboBoxSemester_Initialized" SelectionChanged="comboboxSemesters_SelectionChanged">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="comboBoxFilterByDegree" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="578,36,0,0" BorderBrush="White" Initialized="comboBoxFilterByDegree_Initialized" SelectionChanged="comboboxSemesters_SelectionChanged">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="comboBoxDetail" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="812,7,0,0" BorderBrush="White" Initialized="comboBoxDetail_Initialized" SelectionChanged="comboboxSemesters_SelectionChanged">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Label x:Name="labelDepartment" Content="Study program:" HorizontalAlignment="Left" Margin="195,35,0,0" VerticalAlignment="Top" Height="31" Width="115" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelSemester" Content="Semester:" HorizontalAlignment="Left" Margin="495,8,0,0" VerticalAlignment="Top" Height="23" Width="78" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelDegree" Content="Degree:" HorizontalAlignment="Left" Margin="495,36,0,0" VerticalAlignment="Top" Height="25" Width="68" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelDetail" Content="Type:" HorizontalAlignment="Left" Margin="757,7,0,0" VerticalAlignment="Top" Height="32" Width="55" FontFamily="Verdana" FontWeight="Bold"/>
+        <Rectangle x:Name="clearFilterCourse" Fill="White" Height="25" Margin="0,36,21,0" Stroke="Black" VerticalAlignment="Top" RadiusY="8.5" RadiusX="8.5" MouseUp="clearFilterCourse_MouseUp" HorizontalAlignment="Right" Width="121"/>
+        <Label x:Name="labelClearFilterCourse" Content="Clear filters" VerticalAlignment="Top" Margin="0,37,26,0" Height="27" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.387,0.219" MouseUp="clearFilterCourse_MouseUp" HorizontalAlignment="Right" Width="92">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform X="0.034" Y="-0.031"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recIconClearFilters" Height="15" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Margin="0,42,121,0" MouseUp="clearFilterCourse_MouseUp" HorizontalAlignment="Right" Width="15">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="ruby_delete.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+</Window>

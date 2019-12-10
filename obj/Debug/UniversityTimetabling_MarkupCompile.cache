@@ -1,0 +1,20 @@
+﻿UniversityTimetabling
+
+
+winexe
+C#
+.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\
+UniversityTimetabling
+none
+false
+DEBUG;TRACE
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\App.xaml
+231622013563
+2-557044289
+321589937684
+25-677825405
+CourseAddEdit.xaml;CoursePeriodPreferenceAddEdit.xaml;Departments.xaml;DepartmentAddEdit.xaml;LoadingPanel\CircularProgressBar.xaml;LoadingPanel\LoadingPanel.xaml;PreferencesWindow.xaml;TimetableWindow.xaml;TimetablingResultDisplay.xaml;CoursePeriodPreferences.xaml;CourseDepartmentRel.xaml;CourseDepartmentRelAddEdit.xaml;CourseTeacherRelAddEdit.xaml;CourseTeacherRelation.xaml;GeneralInfo.xaml;MainWindow.xaml;RoomAddEdit.xaml;Rooms.xaml;TeacherAddEdit.xaml;Courses.xaml;Teachers.xaml;PreferencesControl.xaml;UControl.xaml;
+
+False
+

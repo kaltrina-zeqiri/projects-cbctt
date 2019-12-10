@@ -1,0 +1,38 @@
+﻿<Window x:Class="UniversityTimetabling.TeacherAddEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniversityTimetabling"
+        mc:Ignorable="d"
+        Title="Teacher" Height="376" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" ShowInTaskbar="False">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="347" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="214" Fill="#FFD2DEDE" Margin="-2,0,0,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="160" Margin="22,22,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="165">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Uniform" ImageSource="teachers.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="labelName" Content="Name:" HorizontalAlignment="Left" Margin="230,11,0,0" VerticalAlignment="Top" Height="30" Width="50" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelSurname" Content="Surname:" HorizontalAlignment="Left" Margin="230,41,0,0" VerticalAlignment="Top" Height="30" Width="79" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelTitle" Content="Title:" HorizontalAlignment="Left" Margin="230,70,0,0" VerticalAlignment="Top" Height="30" Width="79" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelEmail" Content="Email:" HorizontalAlignment="Left" Margin="230,100,0,0" VerticalAlignment="Top" Height="30" Width="79" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelPhone" Content="Phone:" HorizontalAlignment="Left" Margin="230,130,0,0" VerticalAlignment="Top" Height="30" Width="79" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelCode" Content="Code:" HorizontalAlignment="Left" Margin="230,158,0,0" VerticalAlignment="Top" Height="30" Width="50" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelNote" Content="Note:" HorizontalAlignment="Left" Margin="230,185,0,0" VerticalAlignment="Top" Height="30" Width="50" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="314,12,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151"/>
+        <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Height="23" Margin="314,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151"/>
+        <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Height="23" Margin="314,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="314,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="23" Margin="314,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151"/>
+        <TextBox x:Name="txtCode" HorizontalAlignment="Left" Height="23" Margin="314,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" IsEnabled="False"/>
+        <TextBox x:Name="txtNote" HorizontalAlignment="Left" Height="69" Margin="314,187,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" AcceptsReturn="True"/>
+        <Rectangle x:Name="teacherPreferences" Fill="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="151" RadiusY="8.5" RadiusX="8.5" Margin="314,269,0,0" MouseUp="teacherPreferences_MouseUp" Focusable="True" KeyUp="teacherPreferences_KeyUp"/>
+        <Label x:Name="labelTeacherPreferences" Content="Teacher constraints" HorizontalAlignment="Left" Margin="315,269,0,0" VerticalAlignment="Top" Height="25" Width="150" FontFamily="Verdana" FontWeight="Bold" MouseUp="teacherPreferences_MouseUp"/>
+        <Rectangle x:Name="saveTeacher" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="334,304,0,0" MouseUp="saveTeacher_MouseUp" Focusable="True" KeyUp="saveTeacher_KeyUp"/>
+        <Rectangle x:Name="close" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="405,304,0,0" MouseUp="close_MouseUp" Focusable="True" KeyUp="close_KeyUp"/>
+        <Label x:Name="labelSaveTeacher" Content="Save" HorizontalAlignment="Left" Margin="343,304,0,0" VerticalAlignment="Top" Height="25" Width="51" FontFamily="Verdana" FontWeight="Bold" MouseUp="saveTeacher_MouseUp"/>
+        <Label x:Name="labelClose" Content="Close" HorizontalAlignment="Left" Margin="412,304,0,0" VerticalAlignment="Top" Height="25" Width="53" FontFamily="Verdana" FontWeight="Bold"  MouseUp="close_MouseUp"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Height="23" Margin="151,2,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" Visibility="Hidden" TextChanged="txtId_TextChanged"/>
+   </Grid>
+</Window>

@@ -1,0 +1,97 @@
+﻿<Window x:Class="UniversityTimetabling.CoursePeriodPreferences"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniversityTimetabling"
+        mc:Ignorable="d"
+        Title="CoursePeriodPreferences" Height="470" Width="1000" Initialized="coursePeriodPreferences_Initialized" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DataGrid x:Name="courseperiodGrid" AutoGenerateColumns="False" HorizontalAlignment="Left" VerticalAlignment="Top" Height="355" Width="992" ColumnWidth="*" CanUserAddRows="False" HorizontalGridLinesBrush="#FF2C3C83" VerticalGridLinesBrush="#FF2C3C83" SelectionMode="Single" IsReadOnly="True" Background="White" Margin="0,37,0,0" MouseDoubleClick="courseperiodGrid_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id}" Header="ID" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding course_id}" Header="Course ID" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding course_name}" Header="Name" />
+                <DataGridTextColumn Binding="{Binding teacher_id}" Header="Teacher ID" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding teacher}" Header="Teacher" />
+                <DataGridTextColumn Binding="{Binding day}" Header="Day" />
+                <DataGridTextColumn Binding="{Binding period}" Header="Unavailable periods" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Rectangle x:Name="addCoursePeriodPreference" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="4,5,0,0" MouseUp="addCoursePeriodPreference_MouseUp"/>
+        <Rectangle x:Name="editCoursePeriodPreference" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="73,5,0,0" MouseUp="editCoursePeriodPreference_MouseUp"/>
+        <Rectangle x:Name="deleteCoursePeriodPreference" Fill="White" HorizontalAlignment="Left" Height="25" Margin="140,5,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="8.5" RadiusX="8.5" MouseUp="deleteCoursePeriodPreference_MouseUp"/>
+        <Label x:Name="labelAddCoursePeriodPreference" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26,5,0,0" Height="24" Width="38" FontFamily="Verdana" FontWeight="Bold" MouseUp="addCoursePeriodPreference_MouseUp"/>
+        <Label x:Name="labelDeleteCoursePeriodPreference" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="158,5,0,0" Height="27" Width="56" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" MouseUp="deleteCoursePeriodPreference_MouseUp">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recAddIcon" HorizontalAlignment="Left" Height="20" Stroke="Black" VerticalAlignment="Top" Width="20" Margin="7,8,0,0" StrokeThickness="0" MouseUp="addCoursePeriodPreference_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="add.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="recEditIcon" HorizontalAlignment="Left" Height="20" Stroke="Black" VerticalAlignment="Top" Width="20" Margin="78,8,0,0" StrokeThickness="0" MouseUp="editCoursePeriodPreference_MouseUp" RenderTransformOrigin="2,0.6">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="edit.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="recIconDelete" HorizontalAlignment="Left" Height="20" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="20" Margin="142,8,0,0" MouseUp="deleteCoursePeriodPreference_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="delete.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="refreshCoursePeriodPreferences" Fill="White" HorizontalAlignment="Left" Height="25" Margin="5,398,0,0" Stroke="Black" VerticalAlignment="Top" Width="85" RadiusY="8.5" RadiusX="8.5" MouseUp="refreshCoursePeriodPreferences_MouseUp"/>
+        <Label x:Name="labelRefreshCoursePeriodPreferences" Content="Refresh" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,398,0,0" Height="27" Width="62" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" MouseUp="refreshCoursePeriodPreferences_MouseUp">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recIconRefresh" HorizontalAlignment="Left" Height="15" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="15" Margin="11,403,0,0" MouseUp="refreshCoursePeriodPreferences_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="refresh.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="labelName" Content="Name:" HorizontalAlignment="Left" Margin="235,6,0,0" VerticalAlignment="Top" Height="23" Width="62" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtFilterByName" HorizontalAlignment="Left" Height="23" Margin="291,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" ToolTip="Filter By Name" RenderTransformOrigin="0.414,0.475" TextChanged="txtFilterByName_TextChanged" />
+        <TextBox x:Name="txtFilterByTeacher" HorizontalAlignment="Left" Height="23" Margin="527,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" ToolTip="Filter By Teacher" TextChanged="txtFilterByName_TextChanged" />
+        <Label x:Name="labelTeacher" Content="Teacher:" HorizontalAlignment="Left" Margin="455,6,0,0" VerticalAlignment="Top" Height="24" Width="74" FontFamily="Verdana" FontWeight="Bold"/>
+        <ComboBox x:Name="comboBoxDays" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="736,7,0,0" BorderBrush="White" Initialized="comboBoxDays_Initialized" SelectionChanged="comboBoxDays_SelectionChanged">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Label x:Name="labelDay" Content="Day:" Margin="693,6,223,0" VerticalAlignment="Top" Height="32" FontFamily="Verdana" FontWeight="Bold"/>
+        <Rectangle x:Name="clearFilterPeriodPreferences" Fill="White" HorizontalAlignment="Left" Height="25" Margin="98,398,0,0" Stroke="Black" VerticalAlignment="Top" Width="121" RadiusY="8.5" RadiusX="8.5" MouseUp="clearFilterPeriodPreferences_MouseUp"/>
+        <Label x:Name="labelClearFilterPeriodPreferences" Content="Clear Filters" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="122,399,0,0" Height="27" Width="92" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.387,0.219" MouseUp="clearFilterPeriodPreferences_MouseUp">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform X="0.034" Y="-0.031"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recIconClearFilters" HorizontalAlignment="Left" Height="15" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="15" Margin="104,404,0,0" MouseUp="clearFilterPeriodPreferences_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="ruby_delete.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="labelEditCoursePeriodPreference" Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="93,5,0,0" Height="24" Width="38" FontFamily="Verdana" FontWeight="Bold" MouseUp="editCoursePeriodPreference_MouseUp"/>
+    </Grid>
+</Window>

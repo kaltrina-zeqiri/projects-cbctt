@@ -1,0 +1,20 @@
+﻿UniversityTimetabling
+
+
+winexe
+C#
+.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 2019\UniversityTimetabling\UniversityTimetabling\obj\Release\
+UniversityTimetabling
+none
+false
+TRACE
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 2019\UniversityTimetabling\UniversityTimetabling\App.xaml
+231622013563
+8-149713983
+361599040757
+24-1232545364
+CourseAddEdit.xaml;CoursePeriodPreferenceAddEdit.xaml;Departments.xaml;DepartmentAddEdit.xaml;LoadingPanel\CircularProgressBar.xaml;LoadingPanel\LoadingPanel.xaml;PreferencesWindow.xaml;TimetableWindow.xaml;TimetablingResultDisplay.xaml;CoursePeriodPreferences.xaml;CourseDepartmentRel.xaml;CourseDepartmentRelAddEdit.xaml;CourseTeacherRelAddEdit.xaml;CourseTeacherRelation.xaml;GeneralInfo.xaml;MainWindow.xaml;RoomAddEdit.xaml;Rooms.xaml;TeacherAddEdit.xaml;Courses.xaml;Teachers.xaml;PreferencesControl.xaml;UControl.xaml;
+
+True
+

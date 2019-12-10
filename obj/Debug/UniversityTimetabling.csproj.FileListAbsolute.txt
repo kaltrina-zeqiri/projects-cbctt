@@ -1,0 +1,388 @@
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.csproj.ResolveComReference.cache
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CoursePeriodPreferenceAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\Departments.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\DepartmentAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\LoadingPanel\CircularProgressBar.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\LoadingPanel\LoadingPanel.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\PreferencesWindow.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\TimetableWindow.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\TimetablingResultDisplay.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CoursePeriodPreferences.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseDepartmentRel.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseDepartmentRelAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseTeacherRelAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseTeacherRelation.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\GeneralInfo.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\RoomAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\Rooms.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\TeacherAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\Courses.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\Teachers.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\PreferencesControl.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UControl.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling_Content.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling_MarkupCompile.cache
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling_MarkupCompile.lref
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CoursePeriodPreferenceAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\Departments.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\DepartmentAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\LoadingPanel\CircularProgressBar.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\LoadingPanel\LoadingPanel.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\PreferencesWindow.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\TimetableWindow.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\TimetablingResultDisplay.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CoursePeriodPreferences.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseDepartmentRel.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseDepartmentRelAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseTeacherRelAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\CourseTeacherRelation.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\GeneralInfo.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\MainWindow.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\RoomAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\Rooms.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\TeacherAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\Courses.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\Teachers.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\PreferencesControl.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UControl.baml
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.g.resources
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.Properties.Resources.resources
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.exe
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\UniversityTimetabling\UniversityTimetabling.exe.config
+C:\Users\HP\Desktop\UniversityTimetabling\FIMDatabase.mdf
+C:\Users\HP\Desktop\UniversityTimetabling\ArchitectureDatabase.mdf
+C:\Users\HP\Desktop\UniversityTimetabling\FNADatabase.mdf
+C:\Users\HP\Desktop\UniversityTimetabling\FIEKDatabase.mdf
+C:\Users\HP\Desktop\UniversityTimetabling\UniversityTimetabling.exe
+C:\Users\HP\Desktop\UniversityTimetabling\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\UniversityTimetabling\Microsoft.Expression.Drawing.dll
+C:\Users\HP\Desktop\UniversityTimetabling\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Windows\assembly\GAC_MSIL\Office\14.0.0.0__71e9bce111e9429c\Office.dll
+C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Word\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Word.dll
+C:\Windows\assembly\GAC_MSIL\Microsoft.Vbe.Interop\14.0.0.0__71e9bce111e9429c\Microsoft.Vbe.Interop.dll
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\UniversityTimetabling\obj\Debug\UniversityTimetabling.csproj.CopyComplete
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.csproj.ResolveComReference.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CoursePeriodPreferenceAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\Departments.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\DepartmentAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\LoadingPanel\CircularProgressBar.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\LoadingPanel\LoadingPanel.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\PreferencesWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\TimetableWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\TimetablingResultDisplay.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CoursePeriodPreferences.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseDepartmentRel.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseDepartmentRelAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseTeacherRelAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseTeacherRelation.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\GeneralInfo.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\RoomAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\Rooms.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\TeacherAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\Courses.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\Teachers.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\PreferencesControl.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UControl.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling_Content.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling_MarkupCompile.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling_MarkupCompile.lref
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CoursePeriodPreferenceAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\Departments.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\DepartmentAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\LoadingPanel\CircularProgressBar.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\LoadingPanel\LoadingPanel.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\PreferencesWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\TimetableWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\TimetablingResultDisplay.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CoursePeriodPreferences.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseDepartmentRel.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseDepartmentRelAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseTeacherRelAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\CourseTeacherRelation.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\GeneralInfo.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\MainWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\RoomAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\Rooms.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\TeacherAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\Courses.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\Teachers.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\PreferencesControl.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UControl.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.g.resources
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.Properties.Resources.resources
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.csproj.CopyComplete
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\FIMDatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\ArchitectureDatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\FNADatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\FIEKDatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.exe
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\obj\Debug\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\Microsoft.Expression.Drawing.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\UniversityTimetabling.exe.config
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\UniversityTimetabling.exe
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.csproj.ResolveComReference.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CoursePeriodPreferenceAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\Departments.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\DepartmentAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\LoadingPanel\CircularProgressBar.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\LoadingPanel\LoadingPanel.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\PreferencesWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\TimetableWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\TimetablingResultDisplay.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CoursePeriodPreferences.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseDepartmentRel.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseDepartmentRelAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseTeacherRelAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseTeacherRelation.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\GeneralInfo.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\RoomAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\Rooms.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\TeacherAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\Courses.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\Teachers.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\PreferencesControl.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UControl.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling_Content.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling_MarkupCompile.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling_MarkupCompile.lref
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CoursePeriodPreferenceAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\Departments.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\DepartmentAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\LoadingPanel\CircularProgressBar.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\LoadingPanel\LoadingPanel.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\PreferencesWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\TimetableWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\TimetablingResultDisplay.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CoursePeriodPreferences.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseDepartmentRel.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseDepartmentRelAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseTeacherRelAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\CourseTeacherRelation.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\GeneralInfo.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\MainWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\RoomAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\Rooms.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\TeacherAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\Courses.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\Teachers.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\PreferencesControl.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UControl.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.g.resources
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.Properties.Resources.resources
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.csproj.CopyComplete
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\FIMDatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\ArchitectureDatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\FNADatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\FIEKDatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\UniversityTimetabling.exe.config
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.exe
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\obj\Debug\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\UniversityTimetabling.exe
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\Microsoft.Expression.Drawing.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - 28.06.2019\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csproj.ResolveComReference.cache
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\UniversityTimetabling.exe.config
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.exe
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CoursePeriodPreferenceAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\Departments.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\DepartmentAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\LoadingPanel\CircularProgressBar.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\LoadingPanel\LoadingPanel.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\PreferencesWindow.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\TimetableWindow.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\TimetablingResultDisplay.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CoursePeriodPreferences.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseDepartmentRel.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseDepartmentRelAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseTeacherRelAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseTeacherRelation.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\GeneralInfo.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\RoomAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\Rooms.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\TeacherAddEdit.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\Courses.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\Teachers.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\PreferencesControl.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UControl.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling_Content.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling_MarkupCompile.cache
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling_MarkupCompile.lref
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CoursePeriodPreferenceAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\Departments.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\DepartmentAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\LoadingPanel\CircularProgressBar.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\LoadingPanel\LoadingPanel.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\PreferencesWindow.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\TimetableWindow.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\TimetablingResultDisplay.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CoursePeriodPreferences.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseDepartmentRel.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseDepartmentRelAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseTeacherRelAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\CourseTeacherRelation.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\GeneralInfo.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\MainWindow.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\RoomAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\Rooms.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\TeacherAddEdit.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\Courses.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\Teachers.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\PreferencesControl.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UControl.baml
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.g.resources
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.Properties.Resources.resources
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\FIMDatabase.mdf
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\FIEKDatabase.mdf
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\UniversityTimetabling.exe
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\Microsoft.Expression.Drawing.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csproj.CopyComplete
+C:\Users\HP\Desktop\UniversityTimetabling\FIEKDatabase_log.ldf
+C:\Users\HP\Desktop\UniversityTimetabling\FIMDatabase_log.ldf
+C:\Users\HP\Desktop\UniversityTimetabling\FNADatabase_log.ldf
+C:\Users\HP\Desktop\UniversityTimetabling\ArchitectureDatabase_log.ldf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csproj.ResolveComReference.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CoursePeriodPreferenceAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\Departments.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\DepartmentAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\LoadingPanel\CircularProgressBar.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\LoadingPanel\LoadingPanel.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\PreferencesWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\TimetableWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\TimetablingResultDisplay.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CoursePeriodPreferences.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseDepartmentRel.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseDepartmentRelAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseTeacherRelAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseTeacherRelation.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\GeneralInfo.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\RoomAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\Rooms.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\TeacherAddEdit.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\Courses.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\Teachers.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\PreferencesControl.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UControl.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling_Content.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling_MarkupCompile.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling_MarkupCompile.lref
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CoursePeriodPreferenceAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\Departments.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\DepartmentAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\LoadingPanel\CircularProgressBar.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\LoadingPanel\LoadingPanel.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\PreferencesWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\TimetableWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\TimetablingResultDisplay.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CoursePeriodPreferences.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseDepartmentRel.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseDepartmentRelAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseTeacherRelAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\CourseTeacherRelation.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\GeneralInfo.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\MainWindow.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\RoomAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\Rooms.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\TeacherAddEdit.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\Courses.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\Teachers.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\PreferencesControl.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UControl.baml
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.g.resources
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.Properties.Resources.resources
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.csproj.CopyComplete
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\FIEKDatabase_log.ldf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\FIEKDatabase.mdf
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\UniversityTimetabling.exe.config
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.exe
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\obj\Debug\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\UniversityTimetabling.exe
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\UniversityTimetabling.pdb
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\Microsoft.Expression.Drawing.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\HP\Desktop\Timetabling versions\UniversityTimetabling - FIEK\zh-Hant\Microsoft.Expression.Drawing.resources.dll

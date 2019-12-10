@@ -1,0 +1,96 @@
+﻿<Window x:Name="rooms" x:Class="UniversityTimetabling.Rooms"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniversityTimetabling"
+        mc:Ignorable="d"
+        Title="Rooms" Height="500" Width="800" Initialized="rooms_Initialized" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" ResizeMode="NoResize">
+    <Grid>
+        <DataGrid x:Name="roomsGrid" AutoGenerateColumns="False" ColumnWidth="*" CanUserAddRows="False" HorizontalGridLinesBrush="#FF2C3C83" VerticalGridLinesBrush="#FF2C3C83" SelectionMode="Single" IsReadOnly="True" Background="White" Margin="0,64,0,0" MouseDoubleClick="roomsGrid_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id}" Header="ID" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding name}" Header="Name" />
+                <DataGridTextColumn Binding="{Binding size}" Header="Size" />
+                <DataGridTextColumn Binding="{Binding code}" Header="Code" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding building}" Header="Building" />
+                <DataGridTextColumn Binding="{Binding note}" Header="Note" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Rectangle x:Name="addRoom" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="8.5" RadiusX="8.5" Margin="9,5,0,0" MouseUp="addRoom_MouseUp"/>
+        <Rectangle x:Name="editRoom" Fill="White" HorizontalAlignment="Left" Height="25" Margin="88,5,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="8.5" RadiusX="8.5" MouseUp="editRoom_MouseUp"/>
+        <Rectangle x:Name="deleteRoom" Fill="White" HorizontalAlignment="Left" Height="25" Margin="9,36,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="8.5" RadiusX="8.5" MouseUp="deleteRoom_MouseUp"/>
+        <Label x:Name="labelAddRoom" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="32,5,0,0" Height="24" Width="38" FontFamily="Verdana" FontWeight="Bold" MouseUp="addRoom_MouseUp"/>
+        <Label x:Name="labelEditRoom" Content="Edit" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="109,5,0,0" Height="25" Width="38" FontFamily="Verdana" FontWeight="Bold"  MouseUp="editRoom_MouseUp"/>
+        <Label x:Name="labelDeleteRoom" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,36,0,0" Height="27" Width="56" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" MouseUp="deleteRoom_MouseUp">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recAddIcon" HorizontalAlignment="Left" Height="20" Stroke="Black" VerticalAlignment="Top" Width="20" Margin="13,8,0,0" StrokeThickness="0" MouseUp="addRoom_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="add.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="recEditIcon" HorizontalAlignment="Left" Height="20" Margin="91,8,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" StrokeThickness="0"  MouseUp="editRoom_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="edit.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="recIconDelete" HorizontalAlignment="Left" Height="20" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="20" Margin="11,39,0,0" MouseUp="deleteRoom_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="delete.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="refreshRooms" Fill="White" Height="25" Margin="0,5,16,0" Stroke="Black" VerticalAlignment="Top" RadiusY="8.5" RadiusX="8.5" MouseUp="refreshRooms_MouseUp" HorizontalAlignment="Right" Width="121"/>
+        <Label x:Name="labelRefreshRooms" Content="Refresh" VerticalAlignment="Top" Margin="0,5,50,0" Height="27" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" MouseUp="refreshRooms_MouseUp" HorizontalAlignment="Right" Width="62">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recIconRefresh" Height="15" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Margin="0,10,113,0" MouseUp="refreshRooms_MouseUp" HorizontalAlignment="Right" Width="15">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="refresh.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="clearFilterRoom" Fill="White" Height="25" Margin="0,35,16,0" Stroke="Black" VerticalAlignment="Top" RadiusY="8.5" RadiusX="8.5" MouseUp="clearFilterRoom_MouseUp" HorizontalAlignment="Right" Width="121"/>
+        <Label x:Name="labelClearFilterRoom" Content="Clear filters" VerticalAlignment="Top" Margin="0,36,21,0" Height="27" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.387,0.219" MouseUp="clearFilterRoom_MouseUp" HorizontalAlignment="Right" Width="92">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform X="0.034" Y="-0.031"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recIconClearFilters" Height="15" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Margin="0,40,115,0" MouseUp="clearFilterRoom_MouseUp" HorizontalAlignment="Right" Width="15">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="ruby_delete.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="labelName" Content="Name:" HorizontalAlignment="Left" Margin="169,6,0,0" VerticalAlignment="Top" Height="23" Width="62" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtFilterByName" HorizontalAlignment="Left" Height="23" Margin="223,6,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" ToolTip="Filter By Name" RenderTransformOrigin="0.414,0.475" TextChanged="txtFilterByName_TextChanged" />
+        <TextBox x:Name="txtFilterBySize" HorizontalAlignment="Left" Height="23" Margin="223,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" ToolTip="Filter By Size" TextChanged="txtFilterByName_TextChanged" />
+        <ComboBox x:Name="comboBoxBuildings" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="455,6,0,0" BorderBrush="White" Initialized="comboBoxBuildings_Initialized" SelectionChanged="txtFilterByName_TextChanged" >
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Label x:Name="labelSize" Content="Size:" HorizontalAlignment="Left" Margin="169,36,0,0" VerticalAlignment="Top" Height="31" Width="57" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelBuilding" Content="Building:" Margin="387,6,0,0" VerticalAlignment="Top" Height="24" FontFamily="Verdana" FontWeight="Bold" HorizontalAlignment="Left" Width="78"/>
+    </Grid>
+</Window>

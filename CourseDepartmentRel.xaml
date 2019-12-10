@@ -1,0 +1,64 @@
+﻿<Window x:Class="UniversityTimetabling.CourseDepartmentRel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniversityTimetabling"
+        mc:Ignorable="d"
+        Title="Course study programs"  Height="470" Width="1000" Initialized="courseDepartmentRel_Initialized" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" MouseDoubleClick="Window_MouseDoubleClick"> 
+    <Grid>
+        <DataGrid x:Name="courseDepartmentRelGrid" AutoGenerateColumns="False" ColumnWidth="*" CanUserAddRows="False" HorizontalGridLinesBrush="#FF2C3C83" VerticalGridLinesBrush="#FF2C3C83" SelectionMode="Single" IsReadOnly="True" Background="White" Margin="0,37,2,7">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding course_id}" Header="Course ID" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding department_id}" Header="Department ID" Visibility="Hidden" />
+                <DataGridTextColumn Binding="{Binding course_name}" Header="Name" />
+                <DataGridTextColumn Binding="{Binding course_type}" Header="Type" />
+                <DataGridTextColumn Binding="{Binding department_name}" Header="Study program" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Rectangle x:Name="addCourseDepartmentRel" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="4,5,0,0" MouseUp="addCourseDepartmentRel_MouseUp"/>
+        <Rectangle x:Name="deleteCourseDepartmentRel" Fill="White" HorizontalAlignment="Left" Height="25" Margin="70,5,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="8.5" RadiusX="8.5" MouseUp="deleteCourseDepartmentRel_MouseUp"/>
+        <Label x:Name="labelAddCourseDepartmentRel" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26,5,0,0" Height="24" Width="38" FontFamily="Verdana" FontWeight="Bold" MouseUp="addCourseDepartmentRel_MouseUp"/>
+        <Label x:Name="labelDeleteCourseDepartmentRel" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="88,5,0,0" Height="27" Width="56" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" MouseUp="deleteCourseDepartmentRel_MouseUp">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recAddIcon" HorizontalAlignment="Left" Height="20" Stroke="Black" VerticalAlignment="Top" Width="20" Margin="7,8,0,0" StrokeThickness="0" MouseUp="addCourseDepartmentRel_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="add.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="recIconDelete" HorizontalAlignment="Left" Height="20" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="20" Margin="72,8,0,0" MouseUp="deleteCourseDepartmentRel_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="delete.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="refreshCourseDepartmentRel" Fill="White" HorizontalAlignment="Left" Height="25" Margin="889,5,0,0" Stroke="Black" VerticalAlignment="Top" Width="85" RadiusY="8.5" RadiusX="8.5" MouseUp="refreshCourseDepartmentRel_MouseUp"/>
+        <Label x:Name="labelRefreshCourseDepartmentRel" Content="Refresh" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="912,5,0,0" Height="27" Width="62" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" MouseUp="refreshCourseDepartmentRel_MouseUp">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.252"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Rectangle x:Name="recIconRefresh" HorizontalAlignment="Left" Height="15" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="15" Margin="895,10,0,0" MouseUp="refreshCourseDepartmentRel_MouseUp">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="refresh.png" Stretch="Uniform"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="labelName" Content="Name:" HorizontalAlignment="Left" Margin="156,6,0,0" VerticalAlignment="Top" Height="23" Width="62" FontFamily="Verdana" FontWeight="Bold"/>
+        <TextBox x:Name="txtFilterByName" HorizontalAlignment="Left" Height="23" Margin="212,6,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" ToolTip="Filter By Name" RenderTransformOrigin="0.414,0.475" TextChanged="txtFilterByName_TextChanged" />
+        <TextBox x:Name="txtFilterByDepartment" HorizontalAlignment="Left" Height="23" Margin="491,6,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="151" ToolTip="Filter By Teacher" TextChanged="txtFilterByName_TextChanged" />
+        <Label x:Name="labelDepartment" Content="Study program:" HorizontalAlignment="Left" Margin="376,6,0,0" VerticalAlignment="Top" Height="24" Width="119" FontFamily="Verdana" FontWeight="Bold"/>
+        <CheckBox x:Name="checkBox" Content="Courses without &#xD;&#xA;study program" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="655,3,0,0" FontFamily="Verdana" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+    </Grid>
+</Window>

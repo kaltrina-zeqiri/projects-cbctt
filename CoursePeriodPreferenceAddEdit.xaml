@@ -1,0 +1,47 @@
+﻿<Window x:Class="UniversityTimetabling.CoursePeriodPreferenceAddEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniversityTimetabling"
+        mc:Ignorable="d"
+        Title="CoursePeriodPreferenceAddEdit" Height="210" Width="445" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,-3">
+        <Rectangle HorizontalAlignment="Left" Height="160" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="165" Margin="4,8,0,0">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Uniform" ImageSource="periodPreferences.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="labelCourse" Content="Course:" HorizontalAlignment="Left" Margin="175,23,0,0" VerticalAlignment="Top" Height="30" Width="73" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelDay" Content="Day:" HorizontalAlignment="Left" Margin="175,63,0,0" VerticalAlignment="Top" Height="30" Width="79" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelPeriod" Content="Unavailable &#xD;&#xA;periods:" HorizontalAlignment="Left" Margin="174,94,0,0" VerticalAlignment="Top" Height="39" Width="90" FontFamily="Verdana" FontWeight="Bold" RenderTransformOrigin="0.561,2.088"/>
+        <ComboBox x:Name="comboBoxCourse" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="264,25,0,0" BorderBrush="White" IsEditable="True" Initialized="comboBoxCourse_Initialized">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="comboBoxDay" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="264,65,0,0" BorderBrush="White" Initialized="comboBoxDay_Initialized">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="comboBoxPeriod" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Margin="264,102,0,0" BorderBrush="White" Initialized="comboBoxPeriod_Initialized">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Rectangle x:Name="saveCoursePeriodPreferences" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="284,138,0,0" MouseUp="saveCoursePeriodPreferences_MouseUp"/>
+        <Rectangle x:Name="close" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="355,138,0,0" MouseUp="close_MouseUp"/>
+        <Label x:Name="labelSaveCoursePeriodPreferences" Content="Save" HorizontalAlignment="Left" Margin="293,138,0,0" VerticalAlignment="Top" Height="25" Width="51" FontFamily="Verdana" FontWeight="Bold" MouseUp="saveCoursePeriodPreferences_MouseUp"/>
+        <Label x:Name="labelClose" Content="Close" HorizontalAlignment="Left" Margin="362,138,0,0" VerticalAlignment="Top" Height="25" Width="53" FontFamily="Verdana" FontWeight="Bold"  MouseUp="close_MouseUp"/>
+    </Grid>
+</Window>

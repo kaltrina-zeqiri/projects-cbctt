@@ -1,0 +1,39 @@
+﻿<Window x:Class="UniversityTimetabling.CourseDepartmentRelAddEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UniversityTimetabling"
+        mc:Ignorable="d"
+        Title="Course - study program assignment" Height="195" Width="455" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,-3">
+        <Rectangle HorizontalAlignment="Left" Height="161" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="166" Fill="#FFD2DEDE"/>
+        <Rectangle HorizontalAlignment="Left" Height="160" Margin="1,1,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="165">
+            <Rectangle.Fill>
+                <ImageBrush Stretch="Uniform" ImageSource="coursePreferences.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="labelCourse" Content="Course:" HorizontalAlignment="Left" Margin="166,30,0,0" VerticalAlignment="Top" Height="22" Width="73" FontFamily="Verdana" FontWeight="Bold"/>
+        <Label x:Name="labelDeartment" Content="Study program:" HorizontalAlignment="Left" Margin="166,72,0,0" VerticalAlignment="Top" Height="30" Width="118" FontFamily="Verdana" FontWeight="Bold"/>
+        <ComboBox x:Name="comboBoxCourse" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Margin="284,30,0,0" BorderBrush="White" IsEditable="True" Initialized="comboBoxCourse_Initialized">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <ComboBox x:Name="comboBoxDepartment" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Margin="284,72,0,0" BorderBrush="White" IsEditable="True" Initialized="comboBoxDepartment_Initialized">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Rectangle x:Name="saveCourseDepartmentRel" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="293,121,0,0" MouseUp="saveCourseDepartmentRel_MouseUp" Focusable="True" KeyUp="saveCourseDepartmentRel_KeyUp"/>
+        <Rectangle x:Name="close" Fill="White" HorizontalAlignment="Left" Height="25" Stroke="Black" VerticalAlignment="Top" Width="60" RadiusY="8.5" RadiusX="8.5" Margin="364,121,0,0" MouseUp="close_MouseUp" Focusable="True" KeyUp="close_KeyUp"/>
+        <Label x:Name="labelSaveCourseDepartmentRel" Content="Save" HorizontalAlignment="Left" Margin="302,121,0,0" VerticalAlignment="Top" Height="25" Width="51" FontFamily="Verdana" FontWeight="Bold" MouseUp="saveCourseDepartmentRel_MouseUp"/>
+        <Label x:Name="labelClose" Content="Close" HorizontalAlignment="Left" Margin="371,121,0,0" VerticalAlignment="Top" Height="25" Width="53" FontFamily="Verdana" FontWeight="Bold"  MouseUp="close_MouseUp"/>
+    </Grid>
+</Window>
